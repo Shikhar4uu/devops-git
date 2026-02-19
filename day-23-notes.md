@@ -5,3 +5,5 @@
 ## What is HEAD in Git?
 
 ## What happens to your files when you switch branches?
+
+## Try using git switch to move between branches — how is it different from git checkout?

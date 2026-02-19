@@ -1,0 +1,55 @@
+             Git Commands Reference
+
+1. Setup & Config -
+
+## git --version
+What it does: Shows the installed Git version.
+Example: Used to verify git is installed or git version.
+
+## git config
+What it does: Sets or updates Git configuration such as username and email.
+Example: Used to configure name and email for commits.
+
+## git config --list
+what it does: Displays all current Git configuration settings.
+Example: used to verify configured name and email.
+
+
+
+2. Basic Workflow -
+ 
+## git init
+What it does: Initializes a new git repository in the current directory to the staging area.
+Example: Used when starting version control for a new project.(jab vcs bnata ha new project k lia)
+
+## git add
+What it does: Moves changes to the staging area.
+Example: Used to add file to staging area or for changes.
+
+## git commit
+What it does: Saves staged changes to the repository history and now changes are tracked.
+Example: Used to track files or changes.
+
+
+
+3. Viewing Changes - 
+
+## git status
+What it does: Shows the current state of files (modified, staged, untracked).  
+Example: Used to check what has changed.
+
+## git log
+What it does: Displays the commit history.  
+Example: Used to review previous commits.
+
+## git log --oneline
+What it does: Shows commit history in compact format.  
+Example: Used for a quick history overview.
+
+## git diff
+What it does:Shows differences between working directory and last commit.  
+Example: Used to review changes before staging.
+
+## git diff --staged
+What it does: Shows differences between staged changes and last commit.  
+Example: Used to review what will be committed.

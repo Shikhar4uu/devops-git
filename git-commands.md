@@ -61,5 +61,19 @@ Example: Used to review what will be committed.
 
 ## git push: Uploads committed local changes to the remote repository.
 
-## git pull: Fetches changes from the remote repository and merges them into your current local branch. 
+## git pull: Fetches changes from the remote repository and merges them into your current local branch.
+
+
+
+@@ Branch Management Commands -
+
+## git branch: Lists all local branches. 
+
+## git branch <branch-name>: Creates a new branch.
+
+## git checkout <branch-name> (or git switch <branch-name>): Switches to a different branch.
+
+
+
+
 

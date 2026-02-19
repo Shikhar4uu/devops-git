@@ -71,7 +71,19 @@ Example: Used to review what will be committed.
 
 ## git branch <branch-name>: Creates a new branch.
 
-## git checkout <branch-name> (or git switch <branch-name>): Switches to a different branch.
+## git checkout <branch-name> (or git switch <branch-name>): Switches to a different branch and its also manages files.
+
+## git checkout -b <branch-name>: Creates a new branch and immediately switches to it
+
+## git merge <branch-name>: Integrates changes from the specified branch into the current branch.
+
+## git branch -d <branch-name>: Deletes a local branch (only possible after it has been merged). 
+
+## git switch <branch>: Jump to another branch, use this for switching branches to avoid conflicts.
+
+## git switch -c <branch>: Create a new branch and jump into it.
+
+## git switch -: Go back to the last branch you were using.
 
 
 

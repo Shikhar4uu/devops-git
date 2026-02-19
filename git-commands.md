@@ -53,3 +53,13 @@ Example: Used to review changes before staging.
 ## git diff --staged
 What it does: Shows differences between staged changes and last commit.  
 Example: Used to review what will be committed.
+
+
+4. More Commands - 
+
+## git clone <url>: Creates a local copy of a remote repository from a specified URL.
+
+## git push: Uploads committed local changes to the remote repository.
+
+## git pull: Fetches changes from the remote repository and merges them into your current local branch. 
+

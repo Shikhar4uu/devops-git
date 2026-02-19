@@ -57,13 +57,6 @@ Example: Used to review what will be committed.
 
 4. More Commands - 
 
-## git clone <url>: Creates a local copy of a remote repository from a specified URL.
-
-## git push: Uploads committed local changes to the remote repository.
-
-## git pull: Fetches changes from the remote repository and merges them into your current local branch.
-
-
 
 @@ Branch Management Commands -
 
@@ -84,6 +77,22 @@ Example: Used to review what will be committed.
 ## git switch -c <branch>: Create a new branch and jump into it.
 
 ## git switch -: Go back to the last branch you were using.
+
+
+
+@@ Remote Synchronization -
+
+## git clone <url>: Creates a local copy of a remote repository from a specified URL.
+
+## git push: Uploads committed local changes to the remote repository.
+
+## git push origin [branch-name]: Uploads your local branch commits to the remote repository.
+
+## git pull: Downloads updates from the remote repository and automatically merges them into your current branch.
+
+## git fetch: Downloads changes from the remote but does not update your local code until you merge them.
+
+## git remote -v: Lists all remote repositories linked to your local project. 
 
 
 

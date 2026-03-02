@@ -2,8 +2,13 @@ hello this is sighnup branch
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 hii i see this add some font size 
 =======
 
 this is my file i am feature-sigup branch
 >>>>>>> feature-signup
+=======
+
+this is my file i am feature-sigup branch
+>>>>>>> 66890e6 (file updated)

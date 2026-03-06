@@ -40,3 +40,21 @@ jobs:
           hostname
           echo "Current User:"
           whoami
+
+  ubuntu-tools:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: check installed tools
+        run: |
+          echo "Docker Version:"
+          docker --version
+
+          echo "Python Version:"
+          python --version
+
+          echo "Node Version:"
+          node --version
+
+          echo "Git Version:"
+          git --version
